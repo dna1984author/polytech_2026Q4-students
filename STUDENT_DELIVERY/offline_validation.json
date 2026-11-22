@@ -1,0 +1,42 @@
+[
+  {
+    "case": "scooters",
+    "video_id": "3Q0W_IogkcU",
+    "network_blocked": true,
+    "notebook_sha256": "d60329c4fb26060e8247430123a9b895b3f02584bc1368ed0dc57abbc2aa2310",
+    "fresh_kernel_seconds": 4.581,
+    "topic": {
+      "input_rows": 2199,
+      "assigned_rows": 2052,
+      "features": 1894,
+      "nmf_iterations": 30
+    },
+    "sentiment_counts": {
+      "negative": 883,
+      "neutral": 1075,
+      "positive": 241
+    },
+    "blind_candidates": 41,
+    "instructor": false
+  },
+  {
+    "case": "yandex",
+    "video_id": "SoETrMIDg1A",
+    "network_blocked": true,
+    "notebook_sha256": "d60329c4fb26060e8247430123a9b895b3f02584bc1368ed0dc57abbc2aa2310",
+    "fresh_kernel_seconds": 5.122,
+    "topic": {
+      "input_rows": 5000,
+      "assigned_rows": 4163,
+      "features": 2679,
+      "nmf_iterations": 20
+    },
+    "sentiment_counts": {
+      "negative": 1755,
+      "neutral": 2402,
+      "positive": 843
+    },
+    "blind_candidates": 42,
+    "instructor": false
+  }
+]
