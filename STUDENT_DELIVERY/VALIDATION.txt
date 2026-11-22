@@ -1,0 +1,44 @@
+Validated locally on Windows x64, 2026-11-22.
+
+Delivered ZIP: Polytech_Block5_student_windows_x64.zip
+Size: 233094561 bytes
+SHA-256: 0d6ab5d9e94f501ef989573e654ec2f92c3040f26fa1c84f9b3bb0a71785a207
+Notebook SHA-256: d60329c4fb26060e8247430123a9b895b3f02584bc1368ed0dc57abbc2aa2310
+
+Source: previous chat's GitHub Actions artifact 14764301213 from
+https://github.com/dna1984author/polytech_2026Q4/actions/runs/45046468895
+Verified its application-file hashes, restored final notebook defaults,
+cleared notebook outputs, updated notebook startup instructions and the
+package manifest, and recompressed the original bundled conda-pack runtime.
+No runtime dependencies were rebuilt or downloaded separately.
+
+Checks passed:
+- ZIP CRC integrity check and exact notebook equality with project root.
+- Original application files matched the supplied SHA-256 manifest.
+- Windows x64 conda-forge Python 3.12.10 ran from the extracted package.
+- First-launch conda-unpack relocation completed in a path containing spaces.
+- RUN_NOTEBOOK.cmd --no-browser started JupyterLab; its authenticated
+  local HTTP status endpoint returned 200; server shut down cleanly.
+- RUN_NOTEBOOK.cmd --verify completed with exit code 0.
+- Every notebook cell executed in fresh kernels for both datasets with
+  outbound Python socket calls and urllib requests blocked inside kernels.
+- Samokat: 2199 rows, 2052 assigned to topics, 41 blind annotation candidates.
+- Yandex: 5000 rows, 4163 assigned to topics, 42 blind annotation candidates.
+- Frozen data fingerprints stayed unchanged during notebook execution.
+- No instructor directory, filled annotation sheet, or raw JSON collection
+  was included in the application portion of the student ZIP.
+- Delivered defaults: scooters / offline / frozen / SHOW_INSTRUCTOR=False.
+- Section 9 and section 14a are retained; code outputs are cleared.
+
+Machine-readable notebook results: offline_validation.json in this folder.
+
+Acceptance limitation:
+This Windows computer already has other Python environments installed.
+The tests used the ZIP's bundled Python explicitly. A disconnected clean
+Windows PC/VM with neither Python nor Conda installed was not available.
+That exact clean-machine acceptance check remains outstanding.
+
+Teacher prompt recovered from the prior chat:
+..\instructor\Block5_Pair2_ChatGPT_Seed_v2.txt
+The request was to supply this prompt; revised PPTX/DOCX materials are
+to be created in the separate ChatGPT conversation using that prompt.
